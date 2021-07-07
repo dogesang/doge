@@ -1,0 +1,38 @@
+/* 设置花语的字体样式 */
+p{
+    margin:50px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+/* 主体部分背景图片字体等 */
+.middle{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:sans-serif, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    font-weight: bold;
+    background: #fff;
+    background-image:  url(../images/page3-bg.png);
+    
+}
+/* 介绍部分的字体样式，加了边框和下划线 */
+#detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    color: rgb(49, 83, 105);
+    border: rgb(49, 83, 105);
+    border-style:solid;
+    text-decoration:wavy;
+    text-decoration-color: rgb(49, 83, 105);
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+}
+/* 表格样式，铺满，且只有内部有边框 */
+table{
+    width: 100%;
+ }
+ th,td{
+     border: solid;
+ }

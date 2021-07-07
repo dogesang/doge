@@ -1,0 +1,71 @@
+/* 这个css文件放了页眉页脚等通用的样式，其他页面也用了这个页面的部分样式，所以取名main */
+
+
+/* 标题 */
+h2 {
+	padding-top: 50px;
+	font-weight: 700;
+	font-size: xx-large;
+	line-height: 1.25;
+	margin: 0 0 1em 0;
+	color:rgba(12, 128, 56, 0.788);
+}
+/* 大背景颜色，并确定居中 */
+body{
+	background-color: #1c1c1c;
+	text-align: center;
+}
+/* -------------导航栏----------- */
+#menu{
+background: #1c1c1c;
+width: 100%;
+
+}
+#nav_list_ul{
+	display: block;
+	list-style: none;
+   }
+   .nav_list_li{
+	  display: inline-block;
+	  position: relative;
+	  vertical-align: bottom;
+   }
+   .nav_list_li a{
+	
+	  color: rgba(255, 255, 255, 0.75);
+  } 
+  .nav_list_li a:hover {
+	color: #fff;
+}
+
+.item-name {
+	font-size: 20px;
+	font-weight: normal;	
+	color: rgba(255, 255, 255, 0.75);
+	padding:0 25px; 
+	height:41px; 
+	line-height:41px;
+  }
+
+  /* --------------主体内容---------------- */
+  .inner {
+	margin: 0 auto;
+	background-image:  url(../images/page3-bg.png) ;
+	background-color:#fff;
+}
+  
+/* --------------页脚---------------- */
+#footer {
+	padding: 1em 0 1em 0;
+	background: #1c1c1c;
+	text-align: center;
+}
+
+	#footer a {
+		font-size: 20px;
+		color: rgba(255, 255, 255, 0.75);
+	}
+
+		#footer a:hover {
+			color: #fff;
+		}

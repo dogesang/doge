@@ -1,0 +1,15 @@
+/* 标题样式 */
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:slategrey;
+}
+/* 主体部分的背景图片 */
+.middle{
+    background-image: url(../images/arrangement-bg.jpg);
+    background-size: contain;
+   
+}
+/* 表格的外边框 */
+table{
+      border: dotted;
+   }
